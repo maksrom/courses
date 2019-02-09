@@ -1,0 +1,46 @@
+<html>
+    <head></head>
+    <body>
+        <canvas id="myId" width="500" height="500" style="border: 1px solid blue"></canvas>
+        <script>
+            var canvas = document.getElementById('myId');
+            var ctx = canvas.getContext('2d');
+
+            var FULL_WIDTH = 500;
+            var FULL_HEIGHT = 500;
+
+            var image = new Image();
+            image.src = 'coin.png';
+
+            image.onload = function () {
+                var pos = {x : 0, y: 0};
+                var dirrectionRight = true;
+                function draw() {
+
+                    ctx.clearRect(0, 0, FULL_WIDTH, FULL_HEIGHT);
+
+                    if (dirrectionRight) {
+                        pos.x += 3;
+                        if (pos.x >= FULL_WIDTH - 100) {
+                            dirrectionRight = false;
+                        }
+                    } else {
+                        pos.x -= 3;
+                        if (pos.x <= 0) {
+                            dirrectionRight = true;
+                        }
+                    }
+
+
+                    ctx.drawImage(image, pos.x, pos.y);
+
+                    requestAnimationFrame(draw);
+                }
+
+                draw();
+            };
+
+            console.log(canvas);
+        </script>
+    </body>
+</html>
