@@ -1,15 +1,15 @@
 ## Course name - Front-end advanced
-## Target - Create a game uses MVC and FSM with react for settings.
+## Target - Create a game uses popular and game UI uses react.
 
 ## Presentations
 
 * Webpack - https://slides.com/maxymromaniv/webpack/#/ - 2h
-* Design patterns - 6h
+* Design patterns - https://slides.com/maxymromaniv/design-patterns/#/ - 6h
 * React - 4h
 * Browser data - 4h
 * Canvas - https://slides.com/maxymromaniv/front-end-canvas/#/ - 4h
-* Algorithms - 4h
-* Agile / Scrum / Kanban - 4h
+* Algorithms - 6h
+* Agile / Scrum / Kanban - 2h
 * HTML 5 - 4h
 * CSS 3 - 4h
 
