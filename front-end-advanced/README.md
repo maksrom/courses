@@ -5,7 +5,7 @@
 
 * Webpack - https://slides.com/maxymromaniv/webpack/#/ - 2h
 * Design patterns - https://slides.com/maxymromaniv/design-patterns/#/ - 6h
-* React - 4h
+* React - https://slides.com/maxymromaniv/react-js/#/ - 4h
 * Browser data - 4h
 * Canvas - https://slides.com/maxymromaniv/front-end-canvas/#/ - 4h
 * Algorithms - 6h
