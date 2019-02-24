@@ -10,7 +10,7 @@
 * Canvas - https://slides.com/maxymromaniv/front-end-canvas/#/ - 4h
 * Algorithms - 6h
 * Agile / Scrum / Kanban - 2h
-* HTML 5 - 4h
+* HTML 5 - https://slides.com/maxymromaniv/html5/#/ - 4h
 * CSS 3 - 4h
 
 
